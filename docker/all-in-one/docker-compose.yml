@@ -3,7 +3,7 @@ services:
     build:
       context: ./../../
       dockerfile: Dockerfile.all-in-one
-    container_name: all-in-one
+    container_name: tickit-web
     ports:
       - "8123:80"
     networks:
@@ -58,7 +58,7 @@ services:
     networks:
       - hi-events-network
     healthcheck:
-      test: [ "CMD", "redis-cli", "ping" ]
+      test: ["CMD", "redis-cli", "ping"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -73,7 +73,7 @@ services:
     networks:
       - hi-events-network
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 10s
       timeout: 5s
       retries: 5
