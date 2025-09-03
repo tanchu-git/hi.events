@@ -1,9 +1,9 @@
 import {i18n} from "@lingui/core";
 import {t} from "@lingui/macro";
 
-export type SupportedLocales = "en" | "de" | "fr" | "it" | "nl" | "pt" | "es" | "zh-cn" | "pt-br" | "vi" |"zh-hk";
+export type SupportedLocales = "en" | "de" | "fr" | "it" | "nl" | "pt" | "es" | "zh-cn" | "pt-br" | "vi" | "zh-hk" | "sv";
 
-export const availableLocales = ["en", "de", "fr", "it", "nl", "pt", "es", "zh-cn", "zh-hk", "pt-br", "vi",];
+export const availableLocales = ["en", "de", "fr", "it", "nl", "pt", "es", "zh-cn", "zh-hk", "pt-br", "vi", "sv"];
 
 export const localeToFlagEmojiMap: Record<SupportedLocales, string> = {
     en: '🇬🇧',
@@ -17,6 +17,7 @@ export const localeToFlagEmojiMap: Record<SupportedLocales, string> = {
     "zh-hk": '🇭🇰',
     "pt-br": '🇧🇷',
     vi: '🇻🇳',
+    sv: '🇸🇪',
 };
 
 export const localeToNameMap: Record<SupportedLocales, string> = {
@@ -31,6 +32,7 @@ export const localeToNameMap: Record<SupportedLocales, string> = {
     "zh-hk": `Cantonese`,
     "pt-br": `Portuguese (Brazil)`,
     vi: `Vietnamese`,
+    sv: `Swedish`,
 };
 
 export const getLocaleName = (locale: SupportedLocales) => {

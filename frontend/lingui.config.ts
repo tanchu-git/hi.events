@@ -21,6 +21,7 @@ const config: LinguiConfig = {
         "zh-hk", // Cantonese Chinese (Hong Kong)
         // "cs", // Czech
         // "ga", // Irish
+        "sv",
     ],
     catalogs: [
         {

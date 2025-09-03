@@ -3,6 +3,7 @@ import {dynamicActivateLocale, getClientLocale, localeToNameMap, SupportedLocale
 import {t} from "@lingui/macro";
 import {IconWorld} from "@tabler/icons-react";
 import {useLingui} from "@lingui/react";
+import { i18n } from "@lingui/core";
 
 export const LanguageSwitcher = () => {
     useLingui();
@@ -32,8 +33,13 @@ export const LanguageSwitcher = () => {
                 return t`Chinese (Traditional)`;
             case "vi":
                 return t`Vietnamese`;
+            case "sv":
+                return t`Swedish`;
         }
     };
+
+    console.log("Current locale:", i18n.locale);
+    console.log("Messages:", i18n.messages);
 
     return (
         <>
