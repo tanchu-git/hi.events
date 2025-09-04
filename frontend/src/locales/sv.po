@@ -957,7 +957,7 @@ msgstr "At least one event type must be selected"
 
 #: src/components/routes/product-widget/CollectInformation/index.tsx:386
 msgid "Attendee"
-msgstr "Attendee"
+msgstr "Gäst"
 
 #: src/components/forms/WebhookForm/index.tsx:94
 msgid "Attendee Cancelled"
@@ -1596,11 +1596,11 @@ msgstr "Complete Order"
 
 #: src/components/routes/product-widget/CollectInformation/index.tsx:223
 msgid "Complete payment"
-msgstr "Complete payment"
+msgstr "Slutför betalningen"
 
 #: src/components/routes/product-widget/Payment/index.tsx:131
 msgid "Complete Payment"
-msgstr "Complete Payment"
+msgstr "Slutför betalningen"
 
 #: src/components/layouts/AuthLayout/index.tsx:68
 #~ msgid "Complete Store"
@@ -1749,7 +1749,7 @@ msgstr "Kontakt Email"
 
 #: src/components/modals/SendMessageModal/index.tsx:168
 msgid "Contact Support"
-msgstr "Kontakt Support"
+msgstr "Contact Support"
 
 #: src/components/modals/SendMessageModal/index.tsx:159
 msgid "Contact us to enable messaging"
@@ -1774,12 +1774,12 @@ msgstr "Nästa Steg"
 
 #: src/components/routes/event/HomepageDesigner/index.tsx:189
 #~ msgid "Continue button text"
-#~ msgstr "Nästa Steg"
+#~ msgstr "Continue button text"
 
 #: src/components/common/WidgetEditor/index.tsx:216
 #: src/components/routes/event/HomepageDesigner/index.tsx:254
 msgid "Continue Button Text"
-msgstr "Nästa Steg"
+msgstr "Continue button text"
 
 #: src/components/modals/CreateEventModal/index.tsx:153
 #~ msgid "Continue Event Setup"
@@ -2310,7 +2310,7 @@ msgstr "Deselect All"
 
 #: src/components/routes/product-widget/CollectInformation/index.tsx:386
 msgid "Details"
-msgstr "Details"
+msgstr "Information"
 
 #: src/components/routes/welcome/index.tsx:191
 msgid "Didn't receive the code?"
@@ -2684,7 +2684,7 @@ msgstr "Email address"
 #: src/components/routes/product-widget/CollectInformation/index.tsx:408
 #: src/components/routes/product-widget/CollectInformation/index.tsx:409
 msgid "Email Address"
-msgstr "Email Address"
+msgstr "Email"
 
 #: src/components/forms/OrganizerForm/index.tsx:50
 #~ msgid "Email address for attendee inquiries and communications"
@@ -3184,7 +3184,7 @@ msgstr "First Invoice Number"
 #: src/components/routes/product-widget/CollectInformation/index.tsx:284
 #: src/components/routes/product-widget/CollectInformation/index.tsx:395
 msgid "First name"
-msgstr "First name"
+msgstr "Förnamne"
 
 #: src/components/common/QuestionsTable/index.tsx:207
 #: src/components/modals/EditUserModal/index.tsx:71
@@ -3195,7 +3195,7 @@ msgstr "First name"
 #: src/components/routes/product-widget/CollectInformation/index.tsx:394
 #: src/components/routes/profile/ManageProfile/index.tsx:135
 msgid "First Name"
-msgstr "First Name"
+msgstr "Förnamn"
 
 #: src/components/routes/auth/AcceptInvitation/index.tsx:30
 msgid "First name must be between 1 and 50 characters"
@@ -3909,7 +3909,7 @@ msgstr "Last login"
 #: src/components/modals/ManageAttendeeModal/index.tsx:111
 #: src/components/modals/ManageOrderModal/index.tsx:150
 msgid "Last name"
-msgstr "Last name"
+msgstr "Efternamn"
 
 #: src/components/common/QuestionsTable/index.tsx:212
 #: src/components/common/QuestionsTable/index.tsx:213
@@ -3923,7 +3923,7 @@ msgstr "Last name"
 #: src/components/routes/product-widget/CollectInformation/index.tsx:401
 #: src/components/routes/profile/ManageProfile/index.tsx:137
 msgid "Last Name"
-msgstr "Last Name"
+msgstr "Efternamn"
 
 #: src/components/common/WebhookTable/index.tsx:239
 msgid "Last Response"
@@ -4824,7 +4824,7 @@ msgstr "Order statuses"
 #: src/components/layouts/Checkout/CheckoutSidebar/index.tsx:28
 #: src/components/modals/ManageOrderModal/index.tsx:105
 msgid "Order Summary"
-msgstr "Order Summary"
+msgstr "Order Detaljer"
 
 #: src/components/routes/event/Settings/Sections/HomepageAndCheckoutSettings/index.tsx:90
 msgid "Order timeout"
@@ -6524,7 +6524,7 @@ msgstr "Subject"
 
 #: src/components/common/OrderSummary/index.tsx:41
 msgid "Subtotal"
-msgstr "Subtotal"
+msgstr "Delbelopp"
 
 #: src/components/common/OrdersTable/index.tsx:115
 #: src/components/layouts/Checkout/index.tsx:51
@@ -7406,7 +7406,7 @@ msgstr "Tools"
 
 #: src/components/common/OrderSummary/index.tsx:92
 msgid "Total"
-msgstr "Total"
+msgstr "Belopp"
 
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:52
 msgid "Total Before Discounts"
@@ -8383,7 +8383,7 @@ msgstr "Your awesome website 🎉"
 
 #: src/components/routes/product-widget/CollectInformation/index.tsx:276
 msgid "Your Details"
-msgstr "Your Details"
+msgstr "Kund Information"
 
 #: src/components/common/ContactOrganizerModal/index.tsx:79
 #: src/components/routes/auth/ForgotPassword/index.tsx:52
